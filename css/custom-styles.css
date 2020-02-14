@@ -1,0 +1,12 @@
+.masthead {
+    background-image: url(../img/exodium/art-disco-exodium/disco-protada-sin-logo-exodium.jpg);
+    background-size: cover;
+}
+
+.text-transparent {
+    color: transparent !important;
+}
+
+.hide {
+    display: none !important;
+}
