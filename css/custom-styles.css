@@ -1,12 +1,118 @@
 .masthead {
-    background-image: url(../img/exodium/art-disco-exodium/disco-protada-sin-logo-exodium.jpg);
+    background: linear-gradient(to bottom, rgba(22, 22, 22, .3) 0, rgba(22, 22, 22, .7) 75%, #161616 100%), url(../img/exodium/art-disco-exodium/disco-protada-sin-logo-exodium2000.jpg);
     background-size: cover;
+    min-height: 304px;
 }
 
 .text-transparent {
     color: transparent !important;
 }
 
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .hide {
-    display: none !important;
+    display: none;
+}
+
+.show {
+    display: inline-block;
+}
+
+.projects-section {
+    padding: 7rem 0;
+}
+
+#youtube {
+    width: 100%;
+    height: 415px;
+}
+
+#spotify {
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    min-height: 400px;
+}
+
+#instagram-embed-0 {
+    margin: 0 !important;
+    border: 0 !important;
+    background: white;
+    width: calc(100% - 2px);
+    border-radius: 3px;
+    box-shadow: none;
+    display: block;
+    min-width: 326px;
+    padding: 0px;
+}
+
+#facebook {
+    width: 100%;
+    height: 100%;
+    min-height: 672px;
+    border: none;
+    overflow: hidden;
+}
+
+#itunes {
+    height: 450px;
+    width: 100%;
+}
+
+.tracklist {
+    overflow-y: hidden;
+}
+
+#twitter-widget-0 {
+    width: 100% !important;
+    margin-top: 0 !important;
+}
+
+.EmbeddedTweet {
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+#AmazonMusicEmbedB084BX1VJS {
+    border: 0px;
+    min-height: 585px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+#logo-principal {
+    font-family: 'Times New Roman';
+}
+
+#buenro {
+    /* -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 1)), to(rgba(0, 0, 0, 0)));
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+    margin-bottom: 4rem;
+}
+
+@media (max-width: 767px) {
+    #youtube {
+        height: 288px;
+    }
+    .masthead {
+        padding: 0;
+    }
+    #logo-principal {
+        padding: 0;
+    }
+    #logo-principal img {
+        width: 85px;
+    }
 }
